@@ -12076,7 +12076,7 @@ fieldset:disabled .btn {
 }
 
 .custom-card:hover img {
-  content: url("./images/04.png");
+  content: url("images/04.png");
 }
 
 .custom-text a {
@@ -12118,7 +12118,7 @@ fieldset:disabled .btn {
 }
 
 .img-change:hover img {
-  content: url("./images/btn2.png");
+  content: url("images/btn2.png");
 }
 
 .banner-style {
