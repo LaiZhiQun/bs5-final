@@ -1,0 +1,17 @@
+.text-in-img-hover{
+    p{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    img{
+        transition: opacity .5s;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+        img{
+            filter:brightness(70%);
+        }
+    }
+}
