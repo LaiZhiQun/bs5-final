@@ -12127,4 +12127,14 @@ fieldset:disabled .btn {
   color: #698669;
   -webkit-text-stroke: 2px white;
 }
+
+.nav_line {
+  border-bottom: 1px solid transparent;
+}
+
+@media (max-width: 576px) {
+  .nav_line {
+    border-bottom: 3px solid #F9C745;
+  }
+}
 /*# sourceMappingURL=all.css.map */
