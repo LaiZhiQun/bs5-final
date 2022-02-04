@@ -1,0 +1,19 @@
+.product_text-in-img-hover{
+    p{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    img{
+        transition: opacity .5s;
+        transition: all .5s;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+        img{
+            filter:brightness(70%);
+            transform: scale(1.005, 1.005);
+        }
+    }
+}

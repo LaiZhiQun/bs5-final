@@ -12137,4 +12137,44 @@ fieldset:disabled .btn {
     border-bottom: 3px solid #F9C745;
   }
 }
+
+.sidebar-line a {
+  color: #6c757d;
+}
+
+.sidebar-line span {
+  display: none;
+}
+
+.sidebar-line:hover a {
+  color: #F9C745;
+}
+
+.sidebar-line:hover span {
+  display: inline;
+}
+
+.product_text-in-img-hover p {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.product_text-in-img-hover img {
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.product_text-in-img-hover:hover p {
+  opacity: 1;
+}
+
+.product_text-in-img-hover:hover img {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transform: scale(1.005, 1.005);
+          transform: scale(1.005, 1.005);
+}
 /*# sourceMappingURL=all.css.map */
