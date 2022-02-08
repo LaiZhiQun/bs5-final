@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Service</title>
+    <title>adoption</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="stylesheets/all.css">
 </head>
+
 <body>
     <!-- 導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white nav_line">
@@ -25,13 +28,13 @@
                         <a class="nav-link mx-3" aria-current="page" href="index.html">首頁</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3 text-primary" href="service.html">服務介紹</a>
+                        <a class="nav-link mx-3" href="service.html">服務介紹</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-3" href="product.html">設計作品</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-3" href="adoption.html">領養專區</a>
+                        <a class="nav-link mx-3 text-primary" href="adoption.html">領養專區</a>
                     </li>
                     <li class="nav-item custom-hover">
                         <a class="btn btn-primary rounded-pill mx-3 px-5 custom-hover-shadow" href="form.html">毛孩似顏繪</a>
@@ -40,57 +43,54 @@
         </div>
     </nav>
 
-    <!-- 頁面圖 -->
-    <div class="mt-4">
-        <picture>
-            <source media="(min-width: 576px)" srcset="images/banner.png" />
-            <img class="img-fluid mb-lg-4 mx-auto d-block" src="images/banner_service-sm@2x.png" alt="home" />
-        </picture>
-    </div>
-
-
-    <!-- 流程 -->
-    <section class="container mt-5">
-        <ul class="row row-cols-1 row-cols-lg-4 list-unstyled gy-5">
-            <li class="col d-flex flex-lg-column align-items-center justify-content-start">
-                <img class="img-fluid col-4 col-lg-10" src="images/step01.png" alt="">
-                <div class="ms-3 ms-lg-0 text-start text-lg-center">
-                    <p class="fw-bold text-primary h3 pt-lg-3" style="font-family:'Kalam', cursive;;">STEP1</p>
-                    <p class="fw-bold h3">購買似顏繪服務</p>
-                    <p class="pt-lg-2">填寫購買表單<br>並完成轉帳付款</p>
-                </div>
-            </li>
-            <li class="col d-flex flex-lg-column align-items-center justify-content-start">
-                <img class="img-fluid col-4 col-lg-10" src="images/step02.png" alt="">
-                <div class="ms-3 ms-lg-0 text-start text-lg-center">
-                    <p class="fw-bold text-primary h3 pt-lg-3" style="font-family:'Kalam', cursive;;">STEP2</p>
-                    <p class="fw-bold h3">設計師繪製</p>
-                    <p class="pt-lg-2">設計師繪製似顏繪<br>不提供改稿</p>
-                </div>
-            </li>
-            <li class="col d-flex flex-lg-column align-items-center justify-content-start">
-                <img class="img-fluid col-4 col-lg-10" src="images/step03.png" alt="">
-                <div class="ms-3 ms-lg-0 text-start text-lg-center">
-                    <p class="fw-bold text-primary h3 pt-lg-3" style="font-family:'Kalam', cursive;;">STEP3</p>
-                    <p class="fw-bold h3">畫作提供</p>
-                    <p class="pt-lg-2">電子檔案or實體化做寄送<br>設計師提供作品</p>
-                </div>
-            </li>
-            <li class="col d-flex flex-lg-column align-items-center justify-content-start">
-                <img class="img-fluid col-4 col-lg-10" src="images/step04.png" alt="">
-                <div class="ms-3 ms-lg-0 text-start text-lg-center">
-                    <p class="fw-bold text-primary h3 pt-lg-3" style="font-family:'Kalam', cursive;;">STEP4</p>
-                    <p class="fw-bold h3">幫助浪浪</p>
-                    <p class="pt-lg-2">每個月30號我們會將設計費<br>購買飼料，提供給xxx中途之家</p>
-                </div>
-            </li>
-        </ul>
+    <!-- 動物個資 -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <img class="img-fluid col-5 col-lg-2 d-block mx-auto" src="images/title02.png" alt="">
+            <ul class="row gy-5 row-cols-1 row-cols-lg-2 mt-3 list-unstyled">
+                <li class="col-lg-8">
+                    <div class="card shadow border-0 p-lg-4">
+                        <div class="card-body">
+                            <h2 class="my-4">等家中-Snow</h2>
+                            <ul class="row list-unstyled">
+                                <li class="col-6">
+                                    <p class="text-secondary lh-lg">品種｜哈士奇<br>性別｜公<br>體型｜大型</p>
+                                </li>
+                                <li class="col-6">
+                                    <p class="text-secondary lh-lg">年紀｜2個月<br>結紮｜已結紮<br>狂犬病疫苗｜已施打</p>
+                                </li>
+                            </ul>
+                            <p class="text-secondary mb-0">
+                                看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出很像貓的叫聲，相當有活力，不適合關籠會發出像獅子的叫聲。<br>
+                                如果照片看起來像你家人，歡迎帶回家一家團圓！</p>
+                        </div>
+                        <img src="images/dog03.png" class="rounded-4 m-3" alt="">
+                    </div>
+                </li>
+                <li class="col-lg-4">
+                    <div class="card shadow">
+                        <img src="images/08.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="mb-1 card-text">收容所</p>
+                            <p class="card-text fw-bold">高雄浪流連途之家</p>
+                            <p class="mb-1 card-text">電話</p>
+                            <p class="card-text fw-bold">07-123999</p>
+                            <p class="mb-1 card-text">地址</p>
+                            <p class="card-text fw-bold">高雄市三民區河中三路123號</p>
+                        </div>
+                        <div class="btn btn-lg btn-primary rounded-pill border-0 m-4">
+                            <a class="text-dark text-decoration-none" href="#">前往中途之家</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <!-- 加入團隊 -->
-    <section class="border-top border-primary border-4 my-5">
+    <section class="border-top border-primary border-4 py-5">
         <div class="container">
-            <ul class="row row-cols-1 row-cols-lg-2 mt-5 d-flex list-unstyled">
+            <ul class="row row-cols-1 row-cols-lg-2 mt-5 d-flex">
                 <li
                     class="col d-lg-flex d-flex flex-column flex-lg-row justify-content-lg-end align-items-center my-5 my-lg-0">
                     <img class="img-fluid" src="images/link01.png" alt="">
@@ -123,7 +123,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

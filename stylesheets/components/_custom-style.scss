@@ -1,0 +1,144 @@
+//logo
+.custom_h1-img{
+    background-image: url(/images/logo.png);
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 119px;
+    height: 40px;
+}
+//btn border
+.custom-border{
+    border: black 1px solid;
+}
+//nav custom:hover shadow
+.custom-hover:hover .custom-hover-shadow{
+    box-shadow: 0 3px 0px black;
+}
+//nav border-bottom-line
+.nav_line{
+    border-bottom: 1px solid transparent;
+}
+@media (max-width:576px) {
+    .nav_line{
+        border-bottom: 3px solid #F9C745;
+    }
+}
+//index:圖中文字
+.custom_banner-style{
+    font-family:'Kalam', cursive;
+    font-size: 70px;
+    color: rgb(105, 134, 105);
+    -webkit-text-stroke: 2px white;
+}
+//index:近期作品
+.text-in-img-hover{
+    p{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    img{
+        transition: opacity .5s;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+        img{
+            filter:brightness(70%);
+        }
+    }
+}
+//index:fixed
+.img-change span:before{
+    content: "";
+    width: 43%;
+    height: 2px;
+    left: 4px;
+    bottom: -8px;
+    position: absolute;
+    background: black;
+}
+.img-change span:after{
+    content: "";
+    width: 43%;
+    height: 2px;
+    right: 4px;
+    bottom: -8px;
+    position: absolute;
+    background: black;
+}
+.img-change:hover img{
+    content: url("/images/btn2.png");
+}
+//index, adoption:領養專區
+.custom-card{
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    transition: box-shadow 0.5s;
+    &:hover{
+        box-shadow: 0 1rem 1.5rem rgba($black, .35);
+        .custom-text{
+            a{
+                color:#F9C745;
+            }
+        }
+    }
+    &:hover{
+        img{
+            content: url("/images/04.png");
+        }
+    }
+}
+.custom-text a{
+    color: black;
+}
+.custom-line{
+    position: relative;
+    &::before{
+        content: "";
+        width: 90%;
+        height: 2px;
+        background: rgb(235, 232, 232);
+        left: 5%;
+        top: 0;
+        position: absolute;
+    }
+}
+//product:sidebar
+.sidebar-line{
+    a{
+        color: $secondary;
+    }
+    span{
+        display: none;
+    }
+    &:hover{
+        a{
+            color: #F9C745;
+        }
+        span{
+            display: inline;
+        }
+    }
+}
+//product:main page
+.product_text-in-img-hover{
+    p{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+    img{
+        transition: opacity .5s;
+        transition: all .5s;
+    }
+    &:hover{
+        p{
+            opacity: 1;
+        }
+        img{
+            filter:brightness(70%);
+            transform: scale(1.005, 1.005);
+        }
+    }
+}

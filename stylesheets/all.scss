@@ -44,16 +44,7 @@
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 //custom style
-@import "./components/home_text-in-img-hover";
-@import "./components/home_custom-border";
-@import "./components/home_custom-hover-shadow";
-@import "./components/home_custom-card";
-@import "./components/home_custom-line";
-@import "./components/home_fix-img-change";
-@import "./components/home_banner-style";
-@import "./components/nav_line";
-@import "./components/product_sidebar-line";
-@import "./components/product_text-in-img-hover";
+@import "./components/custom-style";
 
 //font-family
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans+TC:wght@400;700&display=swap');

@@ -2305,22 +2305,22 @@ progress {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #ced4da;
   opacity: 1;
 }
 
@@ -12027,6 +12027,42 @@ fieldset:disabled .btn {
   }
 }
 
+.custom_h1-img {
+  background-image: url(/images/logo.png);
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 119px;
+  height: 40px;
+}
+
+.custom-border {
+  border: black 1px solid;
+}
+
+.custom-hover:hover .custom-hover-shadow {
+  -webkit-box-shadow: 0 3px 0px black;
+          box-shadow: 0 3px 0px black;
+}
+
+.nav_line {
+  border-bottom: 1px solid transparent;
+}
+
+@media (max-width: 576px) {
+  .nav_line {
+    border-bottom: 3px solid #F9C745;
+  }
+}
+
+.custom_banner-style {
+  font-family: 'Kalam', cursive;
+  font-size: 70px;
+  color: #698669;
+  -webkit-text-stroke: 2px white;
+}
+
 .text-in-img-hover p {
   opacity: 0;
   -webkit-transition: opacity .5s;
@@ -12045,56 +12081,6 @@ fieldset:disabled .btn {
 .text-in-img-hover:hover img {
   -webkit-filter: brightness(70%);
           filter: brightness(70%);
-}
-
-.custom-border {
-  border: black 1px solid;
-}
-
-.custom-hover:hover .custom-hover-shadow {
-  -webkit-box-shadow: 0 3px 0px black;
-          box-shadow: 0 3px 0px black;
-}
-
-.custom-card {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  -webkit-transition: -webkit-box-shadow 0.5s;
-  transition: -webkit-box-shadow 0.5s;
-  transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
-}
-
-.custom-card:hover {
-  -webkit-box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.35);
-          box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.35);
-}
-
-.custom-card:hover .custom-text a {
-  display: block;
-  color: #F9C745;
-}
-
-.custom-card:hover img {
-  content: url("/images/04.png");
-}
-
-.custom-text a {
-  color: black;
-}
-
-.custom-line {
-  position: relative;
-}
-
-.custom-line:before {
-  content: "";
-  width: 90%;
-  height: 2px;
-  background: #ebe8e8;
-  left: 5%;
-  top: 0;
-  position: absolute;
 }
 
 .img-change span:before {
@@ -12121,21 +12107,44 @@ fieldset:disabled .btn {
   content: url("/images/btn2.png");
 }
 
-.banner-style {
-  font-family: 'Kalam', cursive;
-  font-size: 70px;
-  color: #698669;
-  -webkit-text-stroke: 2px white;
+.custom-card {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
-.nav_line {
-  border-bottom: 1px solid transparent;
+.custom-card:hover {
+  -webkit-box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.35);
+          box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.35);
 }
 
-@media (max-width: 576px) {
-  .nav_line {
-    border-bottom: 3px solid #F9C745;
-  }
+.custom-card:hover .custom-text a {
+  color: #F9C745;
+}
+
+.custom-card:hover img {
+  content: url("/images/04.png");
+}
+
+.custom-text a {
+  color: black;
+}
+
+.custom-line {
+  position: relative;
+}
+
+.custom-line::before {
+  content: "";
+  width: 90%;
+  height: 2px;
+  background: #ebe8e8;
+  left: 5%;
+  top: 0;
+  position: absolute;
 }
 
 .sidebar-line a {
