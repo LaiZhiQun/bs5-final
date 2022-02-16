@@ -70,7 +70,7 @@
     background: black;
 }
 .img-change:hover img{
-    content: url("/images/btn2.png");
+    content: url("../images/btn2.png");
 }
 //index, adoption:領養專區
 .custom-card{
@@ -86,7 +86,7 @@
     }
     &:hover{
         img{
-            content: url("/images/04.png");
+            content: url("../images/04.png");
         }
     }
 }
