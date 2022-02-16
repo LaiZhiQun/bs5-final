@@ -93,18 +93,6 @@
 .custom-text a{
     color: black;
 }
-.custom-line{
-    position: relative;
-    &::before{
-        content: "";
-        width: 90%;
-        height: 2px;
-        background: rgb(235, 232, 232);
-        left: 5%;
-        top: 0;
-        position: absolute;
-    }
-}
 //product:sidebar
 .sidebar-line{
     a{
