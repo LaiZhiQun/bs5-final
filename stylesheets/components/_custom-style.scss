@@ -22,7 +22,7 @@
 }
 @media (max-width:576px) {
     .nav_line{
-        border-bottom: 3px solid #F9C745;
+        border-bottom: 3px solid $customcolor;
     }
 }
 //index:圖中文字
@@ -80,7 +80,7 @@
         box-shadow: 0 1rem 1.5rem rgba($black, .35);
         .custom-text{
             a{
-                color:#F9C745;
+                color:$customcolor;
             }
         }
     }
@@ -103,7 +103,7 @@
     }
     &:hover{
         a{
-            color: #F9C745;
+            color: $customcolor;
         }
         span{
             display: inline;
